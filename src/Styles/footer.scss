@@ -1,29 +1,26 @@
-body {
-    background: #fbfbfd;
-}
-
 .new_footer_area {
-    background: #fbfbfd;
+    background: rgb(241, 255, 254);
 }
 
 .none{
     display: none;
 }
+.fab{
+    margin-right: 10px;
+}
 .new_footer_top {
-    padding: 120px 0px 270px;
+    padding: 30px 0px 250px 0px;
     position: relative;
       overflow-x: hidden;
 }
 .new_footer_area .footer_bottom {
     padding-top: 5px;
-    padding-bottom: 50px;
 }
 .footer_bottom {
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     color: #7f88a6;
-    padding: 27px 0px;
 }
 .new_footer_top .company_widget p {
     font-size: 16px;
@@ -52,7 +49,15 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     outline: none;
 }
 
-
+.link_li{
+    margin-left: 8px;
+    font-size: 1rem;
+    color:#212529;
+}
+.link_li:Hover{
+    color:  #5e2ced;
+    font-size: 1.01rem;
+}
 
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
     color: #5e2ced;
@@ -120,7 +125,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .new_footer_top .f_social_icon a:hover {
     background: #5e2ced;
     border-color: #5e2ced;
-  color:white;
+    color:white;
 }
 .new_footer_top .f_social_icon a + a {
     margin-left: 4px;
@@ -135,24 +140,20 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .f_size_18 {
     font-size: 18px;
 }
-h1, h2, h3, h4, h5, h6 {
+.h3{
     color: #4b505e;
 }
-.new_footer_top .f_widget.about-widget .f_list li a {
-    color: #6a7695;
-}
-
 
 .new_footer_top .footer_bg {
     position: absolute;
     bottom: 0;
-    background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+    background: url("../images/footer_bg.png") no-repeat scroll center 0;
     width: 100%;
     height: 266px;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-    background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
+    background: url("../images/volks.gif") no-repeat center center;
     width: 330px;
     height: 105px;
   background-size:100%;
@@ -164,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-    background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
+    background: url("../images/cyclist.gif") no-repeat center center;
     width: 88px;
     height: 100px;
   background-size:100%;

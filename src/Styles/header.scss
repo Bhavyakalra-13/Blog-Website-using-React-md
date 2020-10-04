@@ -11,17 +11,6 @@ $navbar-link-hover: $base-color;
 $navbar-dropdown-separator-color: #eee;
 $navbar-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.035);
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: $font-family;
-  font-size: $font-size-base;
-}
-
 a {
   text-decoration: none;
 }
